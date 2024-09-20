@@ -1,0 +1,42 @@
+{
+  "name": "barnowl-mokosmart",
+  "homepage": "https://github.com/reelyactive/barnowl-mokosmart/",
+  "author": {
+    "name": "reelyActive",
+    "email": "info@reelyactive.com"
+  },
+  "description": "Collect and process ambient Bluetooth Low Energy packets from MOKOSmart gateways for real-time location and sensing.  We believe in an open Internet of Things.",
+  "keywords": [
+    "reelyActive",
+    "barnowl",
+    "MOKOSmart",
+    "raddec"
+  ],
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "./lib/barnowlmokosmart.js",
+  "scripts": {
+    "start": "node bin/barnowl-mokosmart"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reelyactive/barnowl-mokosmart.git"
+  },
+  "dependencies": {
+    "advlib-identifier": ">=0.1.0",
+    "mqtt": "^5.10.1",
+    "raddec": ">=0.6.0"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/reelyactive/barnowl-mokosmart/issues"
+  },
+  "contributors": [
+    {
+      "name": "Jeffrey Dungen"
+    }
+  ],
+  "license": "MIT"
+}

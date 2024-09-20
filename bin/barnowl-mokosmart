@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+const BarnowlMOKOSmart = require('../lib/barnowlmokosmart.js');
+
+let barnowl = new BarnowlMOKOSmart();
+
+barnowl.addListener(BarnowlMOKOSmart.MqttListener, {});
+
+barnowl.on('raddec', (raddec) => {
+  console.log(raddec.toFlattened());
+});
