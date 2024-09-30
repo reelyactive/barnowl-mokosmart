@@ -22,6 +22,8 @@ Clone this repository, install package dependencies with `npm install`, and then
 
     npm start
 
+__barnowl-mokosmart__ will attempt to connect to a local MQTT server (mqtt://localhost) and subscribe to the mokosmart topic, outputting _raddec_ and _infrastructureMessage_ data to the console.
+
 
 Is that owl you can do?
 -----------------------
